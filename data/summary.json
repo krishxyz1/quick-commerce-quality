@@ -1,0 +1,569 @@
+{
+ "generated": "2026-10-27",
+ "totalReviews": 10321,
+ "model": "gemini-3.5-flash-lite",
+ "issuesAvg": {
+  "freshness": 0.079,
+  "damaged": 0.0484,
+  "missing_item": 0.0607,
+  "wrong_item": 0.033,
+  "late_delivery": 0.0794,
+  "refund_support": 0.213,
+  "pricing_fees": 0.0992,
+  "app_experience": 0.1068,
+  "delivery_partner": 0.0493
+ },
+ "churnBase": 0.0968,
+ "churnByIssue": [
+  {
+   "issue": "refund_support",
+   "reviews": 2198,
+   "churnIntent": 0.283,
+   "avgStars": 1.11
+  },
+  {
+   "issue": "wrong_item",
+   "reviews": 341,
+   "churnIntent": 0.2727,
+   "avgStars": 1.13
+  },
+  {
+   "issue": "damaged",
+   "reviews": 500,
+   "churnIntent": 0.262,
+   "avgStars": 1.24
+  },
+  {
+   "issue": "missing_item",
+   "reviews": 626,
+   "churnIntent": 0.2604,
+   "avgStars": 1.19
+  },
+  {
+   "issue": "freshness",
+   "reviews": 815,
+   "churnIntent": 0.2245,
+   "avgStars": 1.33
+  },
+  {
+   "issue": "late_delivery",
+   "reviews": 820,
+   "churnIntent": 0.1963,
+   "avgStars": 1.34
+  },
+  {
+   "issue": "delivery_partner",
+   "reviews": 509,
+   "churnIntent": 0.1866,
+   "avgStars": 1.43
+  },
+  {
+   "issue": "pricing_fees",
+   "reviews": 1024,
+   "churnIntent": 0.1377,
+   "avgStars": 2.04
+  },
+  {
+   "issue": "app_experience",
+   "reviews": 1102,
+   "churnIntent": 0.1316,
+   "avgStars": 1.61
+  }
+ ],
+ "freshCategories": {
+  "fruits_veg": 191,
+  "dairy_eggs": 101,
+  "bakery": 14,
+  "meat_fish": 14,
+  "staples_packaged": 55,
+  "snacks_beverages": 93,
+  "home_personal": 22,
+  "none": 325
+ },
+ "apps": [
+  {
+   "key": "blinkit",
+   "name": "Blinkit",
+   "reviews": 2500,
+   "from": "2026-10-21",
+   "to": "2026-10-26",
+   "avgStars": 3.52,
+   "freshness": 0.0436,
+   "freshnessCount": 109,
+   "quality": 0.1208,
+   "churnIntent": 0.0488,
+   "healthRisk": 63,
+   "complaintShare": 0.3952,
+   "issues": {
+    "freshness": 0.0436,
+    "damaged": 0.038,
+    "missing_item": 0.0248,
+    "wrong_item": 0.028,
+    "late_delivery": 0.0472,
+    "refund_support": 0.128,
+    "pricing_fees": 0.112,
+    "app_experience": 0.0652,
+    "delivery_partner": 0.0468
+   },
+   "freshByCategory": {
+    "fruits_veg": 11.6,
+    "dairy_eggs": 3.2,
+    "bakery": 0.8,
+    "meat_fish": 1.6,
+    "staples_packaged": 2.4,
+    "snacks_beverages": 6
+   },
+   "weekly": [
+    {
+     "week": "2026-10-19",
+     "reviews": 2317,
+     "freshness": 0.0432
+    },
+    {
+     "week": "2026-10-26",
+     "reviews": 183,
+     "freshness": 0.0492
+    }
+   ],
+   "quotes": [
+    {
+     "id": "134404c3-f771-440a-ad11-1a2a4e7dfca1",
+     "date": "2026-10-24",
+     "score": 1,
+     "text": "Blinkit is delivering rotten and outdated products which causes serious health issues. Today they have delivered total rotten eggs. This is my last order to Blinkit. Others also think twice before purchasing anything from Blinkit.",
+     "category": "dairy_eggs",
+     "severity": 3
+    },
+    {
+     "id": "e0859649-e2c3-4b4c-9bc5-26cfcceaafe2",
+     "date": "2026-10-23",
+     "score": 1,
+     "text": "i ordered amul gir cow milk, and they are providing abt to expire item, why",
+     "category": "dairy_eggs",
+     "severity": 3
+    },
+    {
+     "id": "8480c426-cfd9-47d7-b356-9f858b6f6eec",
+     "date": "2026-10-23",
+     "score": 1,
+     "text": "The products are always dirty we have to wash and keep it everytime.",
+     "category": "fruits_veg",
+     "severity": 3
+    },
+    {
+     "id": "e5fcf945-a23f-4dac-adc4-031b6086aaf9",
+     "date": "2026-10-26",
+     "score": 1,
+     "text": "don't order there hub is not clear there are mouse which is eated my vegitable which I have order it should band",
+     "category": "fruits_veg",
+     "severity": 3
+    },
+    {
+     "id": "329e6a3f-a63c-4974-972b-1a673e8016e0",
+     "date": "2026-10-25",
+     "score": 1,
+     "text": "Not good product delivered vegitable main insects and very poor condition or smell bhi aati hai",
+     "category": "fruits_veg",
+     "severity": 3
+    },
+    {
+     "id": "ae4d486c-d1bf-4fa9-b5a4-ad1a0b8c6293",
+     "date": "2026-10-25",
+     "score": 1,
+     "text": "I ordered a bottle of sunflower oil and it was old and also get expired in 11 days",
+     "category": "staples_packaged",
+     "severity": 3
+    }
+   ]
+  },
+  {
+   "key": "zepto",
+   "name": "Zepto",
+   "reviews": 2500,
+   "from": "2026-10-01",
+   "to": "2026-10-26",
+   "avgStars": 2.42,
+   "freshness": 0.1344,
+   "freshnessCount": 336,
+   "quality": 0.3152,
+   "churnIntent": 0.1532,
+   "healthRisk": 229,
+   "complaintShare": 0.6504,
+   "issues": {
+    "freshness": 0.1344,
+    "damaged": 0.0876,
+    "missing_item": 0.1024,
+    "wrong_item": 0.0556,
+    "late_delivery": 0.1088,
+    "refund_support": 0.362,
+    "pricing_fees": 0.0832,
+    "app_experience": 0.132,
+    "delivery_partner": 0.064
+   },
+   "freshByCategory": {
+    "fruits_veg": 28.4,
+    "dairy_eggs": 14.8,
+    "bakery": 2,
+    "meat_fish": 0.8,
+    "staples_packaged": 10,
+    "snacks_beverages": 16.8
+   },
+   "weekly": [
+    {
+     "week": "2026-09-28",
+     "reviews": 372,
+     "freshness": 0.1532
+    },
+    {
+     "week": "2026-10-05",
+     "reviews": 698,
+     "freshness": 0.1318
+    },
+    {
+     "week": "2026-10-12",
+     "reviews": 692,
+     "freshness": 0.1214
+    },
+    {
+     "week": "2026-10-19",
+     "reviews": 702,
+     "freshness": 0.1467
+    }
+   ],
+   "quotes": [
+    {
+     "id": "fd7f8f68-30eb-4979-94c4-50c1b51ff55f",
+     "date": "2026-10-17",
+     "score": 1,
+     "text": "Literally got spoilt milk and they won't refund because some guy told them that milk was in Proper condition never using this app.",
+     "category": "dairy_eggs",
+     "severity": 3
+    },
+    {
+     "id": "ec1ac657-e191-419e-bd3d-8bef6aa1501f",
+     "date": "2026-10-11",
+     "score": 1,
+     "text": "very bad experience I send video & pic already.sara hua cucumber bhej k sorry bol rai hai na sahi cucumber nahi paise refund kuch nai kar payenge.",
+     "category": "fruits_veg",
+     "severity": 3
+    },
+    {
+     "id": "984d9319-6c4c-4de0-afde-dff9ad570fa1",
+     "date": "2026-10-04",
+     "score": 1,
+     "text": "***SAB KUCH NAKLI*** 1st order, they send me 5 months old biscuits when i sent them a picture from phone they're saying it's from google. uninstalled never using it again.",
+     "category": "snacks_beverages",
+     "severity": 3
+    },
+    {
+     "id": "ff8d19be-c1b7-457c-bb71-b472fae59c56",
+     "date": "2026-10-25",
+     "score": 1,
+     "text": "ganda sada hua ghtiya smaan dete h sade hue apple diye refund mere original payment source pr nhi dere zepto kya btmeezi h koi order na kro khany ka food paisa chor",
+     "category": "fruits_veg",
+     "severity": 3
+    },
+    {
+     "id": "8592c4d8-0d56-491c-991a-6597a1d40e57",
+     "date": "2026-10-25",
+     "score": 1,
+     "text": "I am getting all spoiled product and rotten vegetables if I try to coustomer support team they will say to mail but after mail all the pictures and details I am getting auto bot reply such a waste 😤 coustomer support",
+     "category": "fruits_veg",
+     "severity": 3
+    },
+    {
+     "id": "5624531c-e297-4f9a-b58a-eebfed595405",
+     "date": "2026-10-24",
+     "score": 5,
+     "text": "Dear Zepto Support Team, The potatoes delivered in my order are completely rotten and unusable. Please either take back your rotten potatoes or give me my money back.",
+     "category": "fruits_veg",
+     "severity": 3
+    }
+   ]
+  },
+  {
+   "key": "instamart",
+   "name": "Instamart",
+   "reviews": 2500,
+   "from": "2026-09-20",
+   "to": "2026-10-26",
+   "avgStars": 3.14,
+   "freshness": 0.0684,
+   "freshnessCount": 171,
+   "quality": 0.1744,
+   "churnIntent": 0.0916,
+   "healthRisk": 131,
+   "complaintShare": 0.4676,
+   "issues": {
+    "freshness": 0.0684,
+    "damaged": 0.0408,
+    "missing_item": 0.0608,
+    "wrong_item": 0.026,
+    "late_delivery": 0.0536,
+    "refund_support": 0.1844,
+    "pricing_fees": 0.1208,
+    "app_experience": 0.1108,
+    "delivery_partner": 0.0412
+   },
+   "freshByCategory": {
+    "fruits_veg": 10.8,
+    "dairy_eggs": 12.4,
+    "bakery": 1.2,
+    "meat_fish": 0.4,
+    "staples_packaged": 6,
+    "snacks_beverages": 6
+   },
+   "weekly": [
+    {
+     "week": "2026-09-21",
+     "reviews": 532,
+     "freshness": 0.0808
+    },
+    {
+     "week": "2026-09-28",
+     "reviews": 485,
+     "freshness": 0.0763
+    },
+    {
+     "week": "2026-10-05",
+     "reviews": 466,
+     "freshness": 0.0665
+    },
+    {
+     "week": "2026-10-12",
+     "reviews": 496,
+     "freshness": 0.0685
+    },
+    {
+     "week": "2026-10-19",
+     "reviews": 476,
+     "freshness": 0.0546
+    }
+   ],
+   "quotes": [
+    {
+     "id": "47c801dc-72d2-4f81-ba5d-3a47dae8545b",
+     "date": "2026-10-18",
+     "score": 3,
+     "text": "day before yesterday heritage milk pocket spoiled. why out dated milk shipped. item. returned my coupon money not repay . for me . this is not correct for Instamart",
+     "category": "dairy_eggs",
+     "severity": 3
+    },
+    {
+     "id": "aad51364-8874-4d05-bcff-1ea2d9743d91",
+     "date": "2026-10-09",
+     "score": 1,
+     "text": "Very bad experience milk smells very much Moisturise biscuit",
+     "category": "dairy_eggs",
+     "severity": 3
+    },
+    {
+     "id": "89540765-0b4a-4fd5-809c-805dd9946190",
+     "date": "2026-10-07",
+     "score": 1,
+     "text": "worst app ever, no customer service available, if you can't provide current date product, stop selling products.",
+     "category": "staples_packaged",
+     "severity": 3
+    },
+    {
+     "id": "07945a26-2156-4759-b7a1-9cbad6c4a0d7",
+     "date": "2026-10-04",
+     "score": 1,
+     "text": "Unsafe food delivery. Delivered expired, spoiled curd with a bad smell. Absolutely zero quality checks being done before delivery. Very poor experience!",
+     "category": "dairy_eggs",
+     "severity": 3
+    },
+    {
+     "id": "1706c76a-b203-4619-81ef-f22317da1ec2",
+     "date": "2026-09-24",
+     "score": 1,
+     "text": "gave me an expired Ataa pack aashirwad and no response in the chat don't bye from them",
+     "category": "staples_packaged",
+     "severity": 3
+    },
+    {
+     "id": "909d5ec6-b0e7-473c-8735-01b29ec0cd5f",
+     "date": "2026-10-25",
+     "score": 1,
+     "text": "worst app, now a days we buy a milk 2 times total milk spoiled,we are buying with money not free of cost,who eaten the money",
+     "category": "dairy_eggs",
+     "severity": 3
+    }
+   ]
+  },
+  {
+   "key": "bigbasket",
+   "name": "BigBasket (BB Now)",
+   "reviews": 2500,
+   "from": "2026-09-20",
+   "to": "2026-10-26",
+   "avgStars": 3.13,
+   "freshness": 0.0772,
+   "freshnessCount": 193,
+   "quality": 0.1728,
+   "churnIntent": 0.0968,
+   "healthRisk": 116,
+   "complaintShare": 0.4652,
+   "issues": {
+    "freshness": 0.0772,
+    "damaged": 0.0288,
+    "missing_item": 0.0612,
+    "wrong_item": 0.0244,
+    "late_delivery": 0.1104,
+    "refund_support": 0.1848,
+    "pricing_fees": 0.0848,
+    "app_experience": 0.1084,
+    "delivery_partner": 0.046
+   },
+   "freshByCategory": {
+    "fruits_veg": 25.2,
+    "dairy_eggs": 9.6,
+    "bakery": 1.6,
+    "meat_fish": 2.8,
+    "staples_packaged": 3.2,
+    "snacks_beverages": 7.6
+   },
+   "weekly": [
+    {
+     "week": "2026-09-21",
+     "reviews": 385,
+     "freshness": 0.0701
+    },
+    {
+     "week": "2026-09-28",
+     "reviews": 576,
+     "freshness": 0.0573
+    },
+    {
+     "week": "2026-10-05",
+     "reviews": 477,
+     "freshness": 0.086
+    },
+    {
+     "week": "2026-10-12",
+     "reviews": 417,
+     "freshness": 0.0887
+    },
+    {
+     "week": "2026-10-19",
+     "reviews": 568,
+     "freshness": 0.088
+    }
+   ],
+   "quotes": [
+    {
+     "id": "b7695723-5299-45bd-b20a-939913d01954",
+     "date": "2026-10-07",
+     "score": 1,
+     "text": "Worst customer service among big brands. Didn't deliver meat in cold condition, and didn't honour cred vouchers. Customer executives can't do anything to help customer except \"raise the concern\"",
+     "category": "meat_fish",
+     "severity": 3
+    },
+    {
+     "id": "762e5b38-4fab-446c-b979-cf5aa7419350",
+     "date": "2026-10-19",
+     "score": 2,
+     "text": "The workers should avoid packing perished vegetables. We were surprised to see perished vegetables packed and sent to us.",
+     "category": "fruits_veg",
+     "severity": 3
+    },
+    {
+     "id": "e731ff21-e436-453b-adab-51defd6aeae2",
+     "date": "2026-10-22",
+     "score": 1,
+     "text": "i ordered 2 pack cheese of 200gm each and cheese recieved very worst (very sour)",
+     "category": "dairy_eggs",
+     "severity": 3
+    },
+    {
+     "id": "f31d6636-e182-46e5-8294-e8c15d13812b",
+     "date": "2026-10-14",
+     "score": 1,
+     "text": "very poor service very melted ice cream no return no exchange",
+     "category": "snacks_beverages",
+     "severity": 3
+    },
+    {
+     "id": "c4af2d19-a623-4da8-aba0-2cb54d8b4cc8",
+     "date": "2026-10-14",
+     "score": 1,
+     "text": "Second time received rotten chicken. Unbearable smell. Once understable but same issue again.",
+     "category": "meat_fish",
+     "severity": 3
+    },
+    {
+     "id": "af29478d-081c-4647-b7e4-329652a25e16",
+     "date": "2026-09-25",
+     "score": 5,
+     "text": "आपका जो आलू रहता हैं बहुत ही खराब रहता मैंने 4 kg मंगाया सब सड़ा हुआ था",
+     "category": "fruits_veg",
+     "severity": 3
+    }
+   ]
+  },
+  {
+   "key": "minutes",
+   "name": "Flipkart Minutes",
+   "reviews": 321,
+   "from": "2026-09-11",
+   "to": "2026-10-25",
+   "avgStars": 3.34,
+   "freshness": 0.0187,
+   "freshnessCount": 6,
+   "quality": 0.0717,
+   "churnIntent": 0.0717,
+   "healthRisk": 5,
+   "complaintShare": 0.4268,
+   "issues": {
+    "freshness": 0.0187,
+    "damaged": 0.0374,
+    "missing_item": 0.0093,
+    "wrong_item": 0.0187,
+    "late_delivery": 0.0623,
+    "refund_support": 0.1558,
+    "pricing_fees": 0.0685,
+    "app_experience": 0.19,
+    "delivery_partner": 0.0436
+   },
+   "freshByCategory": {
+    "fruits_veg": 3.1,
+    "dairy_eggs": 3.1,
+    "bakery": 0,
+    "meat_fish": 0,
+    "staples_packaged": 3.1,
+    "snacks_beverages": 6.2
+   },
+   "weekly": [
+    {
+     "week": "2026-09-21",
+     "reviews": 65,
+     "freshness": 0.0308
+    },
+    {
+     "week": "2026-09-28",
+     "reviews": 61,
+     "freshness": 0.0164
+    }
+   ],
+   "quotes": [
+    {
+     "id": "a87a5c0b-4be2-4725-b199-ce2a74f8c235",
+     "date": "2026-09-21",
+     "score": 1,
+     "text": "Very disappointed with the service. I ordered ice cream through Flipkart Minutes, but it arrived completely melted and spoiled, making it useless. There was also a mix-up with the items. Quality check and delivery handling need serious improvement",
+     "category": "snacks_beverages",
+     "severity": 3
+    },
+    {
+     "id": "1a6aaab8-6c78-49b2-839b-dcafc1bc160c",
+     "date": "2026-10-18",
+     "score": 1,
+     "text": "aaj mene expired wali 'Lets Try ' wali namkeen khayi h ..wo bhi 2 months purani.. customer care ka no nhi lagta or delivery wala sunta nhi h..bekar service h",
+     "category": "snacks_beverages",
+     "severity": 3
+    }
+   ]
+  }
+ ],
+ "validation": null
+}
