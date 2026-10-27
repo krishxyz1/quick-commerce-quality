@@ -91,7 +91,7 @@ export default function Method() {
           {v ? (
             <>
               <p className="card-lead">
-                {num(v.n)} random reviews labelled again by a larger model. The full set of issues matches on{' '}
+                {num(v.n)} random reviews labelled again by a different Gemini model. The full set of issues matches on{' '}
                 {pct(v.exactMatch, 0)} of reviews, and the food on {pct(v.categoryMatch, 0)}.
               </p>
               <table className="plain">

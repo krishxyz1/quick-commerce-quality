@@ -185,7 +185,7 @@ export default async function Overview({ searchParams }: PageProps<'/'>) {
           {v ? (
             <>
               <p className="card-lead">
-                {num(v.n)} reviews were labelled a second time by a larger model. Agreement per issue as Cohen’s kappa;
+                {num(v.n)} reviews were labelled a second time by a different Gemini model. Agreement per issue as Cohen’s kappa;
                 above 0.6 is strong.
               </p>
               <BarList

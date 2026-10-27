@@ -1,8 +1,8 @@
-// Spot-checks the bulk labels with a second, larger model on a fixed random sample
+// Spot-checks the bulk labels with a second, different model on a fixed random sample
 // and reports per-issue agreement (Cohen's kappa). Low-kappa issues get flagged on
 // the dashboard instead of being presented as precise.
 //
-//   node pipeline/validate.mjs [--n 300] [--model gemini-3.5-flash]
+//   node pipeline/validate.mjs [--n 200] [--model gemini-3.1-flash-lite]
 import fs from 'node:fs';
 import path from 'node:path';
 import { SYSTEM_PROMPT, RESPONSE_SCHEMA, batchPrompt, ISSUES } from '../lib/taxonomy.ts';
@@ -12,8 +12,8 @@ const arg = (name, dflt) => {
   const i = process.argv.indexOf(`--${name}`);
   return i > -1 ? process.argv[i + 1] : dflt;
 };
-const N = Number(arg('n', 300));
-const MODEL = arg('model', 'gemini-3.5-flash');
+const N = Number(arg('n', 200));
+const MODEL = arg('model', 'gemini-3.1-flash-lite');
 
 const readJsonl = (f) => fs.readFileSync(f, 'utf8').split('\n').filter(Boolean).map((l) => JSON.parse(l));
 const raw = new Map(readJsonl(path.join('data', 'reviews.raw.jsonl')).map((r) => [r.id, r]));

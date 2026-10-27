@@ -14,7 +14,7 @@
 ```
 pipeline/scrape.mjs     newest English reviews per app (google-play-scraper), names dropped
 pipeline/classify.mjs   Gemini, 40 reviews per call, structured JSON output, resumable on rate limits
-pipeline/validate.mjs   300-review sample re-labelled by a larger model, Cohen's kappa per issue
+pipeline/validate.mjs   200-review sample re-labelled by a second, different model, Cohen's kappa per issue
 pipeline/aggregate.mjs  rates, food-by-app matrix, weekly trend, quotes -> data/summary.json
 lib/taxonomy.ts         the one prompt + schema, shared by the pipeline and the live API route
 app/                    Next.js dashboard: overview, review log, live labeller, method
