@@ -565,5 +565,79 @@
    ]
   }
  ],
- "validation": null
+ "validation": {
+  "bulkModel": "gemini-3.5-flash-lite",
+  "checkModel": "gemini-3.1-flash-lite",
+  "n": 200,
+  "exactMatch": 0.86,
+  "categoryMatch": 0.98,
+  "perIssue": [
+   {
+    "issue": "freshness",
+    "prevalence": 0.1,
+    "agreement": 0.99,
+    "kappa": 0.941860465116279
+   },
+   {
+    "issue": "damaged",
+    "prevalence": 0.06,
+    "agreement": 0.985,
+    "kappa": 0.8493975903614457
+   },
+   {
+    "issue": "missing_item",
+    "prevalence": 0.04,
+    "agreement": 0.99,
+    "kappa": 0.8837209302325582
+   },
+   {
+    "issue": "wrong_item",
+    "prevalence": 0.065,
+    "agreement": 0.985,
+    "kappa": 0.872013651877133
+   },
+   {
+    "issue": "late_delivery",
+    "prevalence": 0.085,
+    "agreement": 0.99,
+    "kappa": 0.932088285229202
+   },
+   {
+    "issue": "refund_support",
+    "prevalence": 0.225,
+    "agreement": 0.995,
+    "kappa": 0.9855491329479769
+   },
+   {
+    "issue": "pricing_fees",
+    "prevalence": 0.06,
+    "agreement": 0.985,
+    "kappa": 0.8616236162361625
+   },
+   {
+    "issue": "app_experience",
+    "prevalence": 0.125,
+    "agreement": 0.93,
+    "kappa": 0.6291390728476823
+   },
+   {
+    "issue": "delivery_partner",
+    "prevalence": 0.045,
+    "agreement": 0.98,
+    "kappa": 0.7047970479704794
+   },
+   {
+    "issue": "praise",
+    "prevalence": 0.435,
+    "agreement": 1,
+    "kappa": 1
+   },
+   {
+    "issue": "other",
+    "prevalence": 0.075,
+    "agreement": 0.955,
+    "kappa": 0.7457627118644065
+   }
+  ]
+ }
 }

@@ -42,6 +42,8 @@ export async function generateJSON({ model, system, user, schema, temperature = 
       const err = await res.json().catch(() => ({}));
       const hint = err.error?.details?.find((d) => d.retryDelay)?.retryDelay;
       const wait = hint ? parseFloat(hint) * 1000 : 2 ** attempt * 4000;
+      // A wait of many minutes means the daily quota is gone; stop instead of hanging.
+      if (wait > 10 * 60_000) throw new Error(`Quota exhausted for ${model}; retry after ${Math.round(wait / 3_600_000)} h`);
       console.warn(`  ${res.status} from ${model}, retrying in ${Math.round(wait / 1000)}s`);
       await sleep(wait);
       continue;
