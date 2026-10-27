@@ -27,7 +27,8 @@ export async function generateJSON({ model, system, user, schema, temperature = 
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'x-goog-api-key': KEY },
       body: JSON.stringify(body),
-    });
+      signal: AbortSignal.timeout(120_000),
+    }).catch((e) => ({ ok: false, status: 504, json: async () => ({}), text: async () => String(e) }));
 
     if (res.ok) {
       const json = await res.json();
@@ -37,6 +38,7 @@ export async function generateJSON({ model, system, user, schema, temperature = 
 
     // 429 = rate limited, 5xx = overloaded. The API sends a RetryInfo hint on 429.
     if (res.status === 429 || res.status >= 500) {
+      // 504 here also covers a request that timed out on our side.
       const err = await res.json().catch(() => ({}));
       const hint = err.error?.details?.find((d) => d.retryDelay)?.retryDelay;
       const wait = hint ? parseFloat(hint) * 1000 : 2 ** attempt * 4000;
